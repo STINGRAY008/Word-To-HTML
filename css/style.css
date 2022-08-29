@@ -1,0 +1,67 @@
+  /* body - This is a single CSS comment*/
+
+        /*
+        This is a multi-line CSS
+        #FF4A4A
+        #FF9551
+        #6FEDD6
+        #B9FFF8
+
+        Inspiration for color: https://www.oberlo.com/blog/color-psychology-color-meanings
+
+        */
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            font-family: Calibri, sans-serif;
+            color: gray;
+            background-color: lightyellow;
+        }
+
+        header {
+            padding: 5%;
+
+        }
+       
+        main {
+            padding: 5%;
+        }
+
+        hr {
+            height: 3px;
+            border-left: 0;
+            border-right: 0;
+        }
+
+        td {
+            padding: 5px 0 3px 2px
+        }
+
+       
+
+        h1{
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        h3{
+            font-weight: 500;
+        }
+
+        th{
+            font-weight: 400;
+            color: black;
+        }
+
+        .header_td--empty{
+            background-color orange;
+            padding-left: 100px;
+        }
+
+
