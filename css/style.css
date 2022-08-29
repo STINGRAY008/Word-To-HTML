@@ -1,49 +1,45 @@
-  /* body - This is a single CSS comment*/
+ /* body - This is a single line CSS comment*/
 
         /*
-        This is a multi-line CSS
-        #FF4A4A
-        #FF9551
-        #6FEDD6
-        #B9FFF8
+            This is a multi-line CSS
+            #FF4A4A
+            #FF9551
+            #6FEDD6
+            #B9FFF8
 
-        Inspiration for color: https://www.oberlo.com/blog/color-psychology-color-meanings
+            INSPIRATION FOR COLOR: https://www.oberlo.com/blog/color-psychology-color-meanings
 
         */
 
         * {
-            padding: 0;
+            padding:0;
             margin: 0;
             box-sizing: border-box;
         }
+
         body{
+            background-color: lightyellow;
+            background-image: url("../Images/business.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 100% 100%;
+            background-attachment: fixed;
+            color: gray;
+            font-family: "Calibri", sans-serif;
             margin-top: 5%;
             margin-bottom: 5%;
-            font-family: Calibri, sans-serif;
-            color: gray;
-            background-color: lightyellow;
+            
+            
+            
         }
 
-        header {
-            padding: 5%;
-
-        }
-       
-        main {
-            padding: 5%;
+        header{
+            padding: 2% 10% 2%;
         }
 
-        hr {
-            height: 3px;
-            border-left: 0;
-            border-right: 0;
+        main{
+            padding: 0% 10%;
         }
-
-        td {
-            padding: 5px 0 3px 2px
-        }
-
-       
 
         h1{
             font-weight: 500;
@@ -51,7 +47,7 @@
         }
 
         h3{
-            font-weight: 500;
+           font-weight: 500;
         }
 
         th{
@@ -59,9 +55,17 @@
             color: black;
         }
 
-        .header_td--empty{
-            background-color orange;
+         hr {
+            height: 3px;
+            border-left: 0;
+            border-right: 0;
+         }
+
+         td{
+            padding:5px 0 3px 2px;
+         }
+
+        .header__td--empty{
+            /* background-color: orange; */
             padding-left: 100px;
         }
-
-
