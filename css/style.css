@@ -52,6 +52,7 @@
          }
          section{
             margin-left: 20px;
+        
          }
         img{
             border-radius: 50%;
@@ -60,8 +61,6 @@
             border: 3px solid #000;
 
         }
-
-
         main{
             padding: 0% 0%;
         }
@@ -70,32 +69,30 @@
            font-weight: 600;
         }
         .table_skills{
-            border-spacing: 20px;
+            border-spacing: 5px;
+            /*border-spacing: 20px;*/
         }
        
-
         th{
             *font-weight: 500;
             color: black;
         }
 
-         
-
          td{
             padding:5px 0 3px 2px;
+            /*padding-left: 100px;*/
          }
 
-        .header__td--empty{
+        .header_td--empty{
             /* background-color: orange; */
-            padding-left: 100px;
+            padding-left: 120px;
         }
 
-        
         .footer{
-            height: 30vh;
+            height: 15vh;
             width: 67.6%;
             background-color: rgb(22, 19, 19);
             color: white;
             text-align: center;
-            padding-top: 60px;
+            padding-top: 35px;
         }
