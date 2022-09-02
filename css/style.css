@@ -87,10 +87,17 @@
             /* background-color: orange; */
             padding-left: 120px;
         }
+        .div{
+            width: 45%;
+            display: inline-block;
+            background-color: coral;
+            opacity: 70%;
+            
+        }
 
         .footer{
             height: 15vh;
-            width: 67.6%;
+            width: 100%;
             background-color: rgb(22, 19, 19);
             color: white;
             text-align: center;
